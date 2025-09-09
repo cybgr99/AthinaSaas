@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "athina-crm",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "build": "npm run build --workspace=frontend && npm run build --workspace=backend",
+    "start": "npm run start --workspace=backend",
+    "audit-deps": "node scripts/audit.js",
+    "init": "node scripts/init-project.js",
+    "generate-types": "node scripts/generate-types.js",
+    "wsl:setup": "chmod +x scripts/wsl-setup.sh && ./scripts/wsl-setup.sh",
+    "wsl:db": "chmod +x scripts/wsl-db.sh && ./scripts/wsl-db.sh",
+    "wsl:check": "chmod +x scripts/wsl-troubleshoot.sh && ./scripts/wsl-troubleshoot.sh"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

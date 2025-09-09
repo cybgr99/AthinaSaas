@@ -1,0 +1,130 @@
+{
+  "common": {
+    "actions": "Ενέργειες",
+    "add": "Προσθήκη",
+    "cancel": "Ακύρωση",
+    "close": "Κλείσιμο",
+    "create": "Δημιουργία",
+    "delete": "Διαγραφή",
+    "edit": "Επεξεργασία",
+    "error": "Σφάλμα",
+    "loading": "Φόρτωση...",
+    "save": "Αποθήκευση",
+    "search": "Αναζήτηση",
+    "success": "Επιτυχία",
+    "required": "Υποχρεωτικό πεδίο"
+  },
+  "auth": {
+    "login": "Σύνδεση",
+    "logout": "Αποσύνδεση",
+    "username": "Όνομα Χρήστη",
+    "password": "Κωδικός",
+    "loginError": "Λάθος στοιχεία σύνδεσης",
+    "roles": {
+      "admin": "Διαχειριστής",
+      "user": "Χρήστης"
+    }
+  },
+  "customers": {
+    "title": "Πελάτες",
+    "newCustomer": "Νέος Πελάτης",
+    "editCustomer": "Επεξεργασία Πελάτη",
+    "import": "Εισαγωγή Πελατών",
+    "fields": {
+      "fullName": "Ονοματεπώνυμο",
+      "companyName": "Επωνυμία",
+      "vatNumber": "ΑΦΜ",
+      "address": "Διεύθυνση",
+      "email": "Email",
+      "phone": "Τηλέφωνο",
+      "notes": "Σημειώσεις",
+      "balance": "Υπόλοιπο"
+    },
+    "validation": {
+      "fullNameRequired": "Το ονοματεπώνυμο είναι υποχρεωτικό",
+      "vatNumberRequired": "Το ΑΦΜ είναι υποχρεωτικό",
+      "vatNumberFormat": "Το ΑΦΜ πρέπει να έχει 9 ψηφία",
+      "emailFormat": "Μη έγκυρη διεύθυνση email"
+    }
+  },
+  "products": {
+    "title": "Προϊόντα & Υπηρεσίες",
+    "newProduct": "Νέο Προϊόν",
+    "editProduct": "Επεξεργασία Προϊόντος",
+    "import": "Εισαγωγή Προϊόντων",
+    "fields": {
+      "name": "Όνομα",
+      "category": "Κατηγορία",
+      "description": "Περιγραφή",
+      "price": "Τιμή",
+      "sku": "Κωδικός (SKU)"
+    },
+    "validation": {
+      "nameRequired": "Το όνομα είναι υποχρεωτικό",
+      "categoryRequired": "Η κατηγορία είναι υποχρεωτική",
+      "priceRequired": "Η τιμή είναι υποχρεωτική",
+      "skuRequired": "Ο κωδικός SKU είναι υποχρεωτικός"
+    }
+  },
+  "orders": {
+    "title": "Παραγγελίες",
+    "newOrder": "Νέα Παραγγελία",
+    "orderDetails": "Λεπτομέρειες Παραγγελίας",
+    "status": {
+      "pending": "Εκκρεμεί",
+      "completed": "Ολοκληρώθηκε",
+      "cancelled": "Ακυρώθηκε"
+    },
+    "fields": {
+      "orderDate": "Ημερομηνία",
+      "customer": "Πελάτης",
+      "status": "Κατάσταση",
+      "shippingCost": "Κόστος Αποστολής",
+      "totalAmount": "Συνολικό Ποσό",
+      "notes": "Σημειώσεις"
+    }
+  },
+  "transactions": {
+    "title": "Συναλλαγές",
+    "newPayment": "Νέα Πληρωμή",
+    "newRefund": "Νέα Επιστροφή",
+    "types": {
+      "payment": "Πληρωμή",
+      "refund": "Επιστροφή"
+    },
+    "fields": {
+      "date": "Ημερομηνία",
+      "type": "Τύπος",
+      "amount": "Ποσό",
+      "paymentMethod": "Τρόπος Πληρωμής",
+      "notes": "Σημειώσεις"
+    },
+    "paymentMethods": {
+      "cash": "Μετρητά",
+      "card": "Κάρτα",
+      "bankTransfer": "Τραπεζική Κατάθεση",
+      "check": "Επιταγή"
+    }
+  },
+  "dashboard": {
+    "title": "Πίνακας Ελέγχου",
+    "metrics": {
+      "totalCustomers": "Σύνολο Πελατών",
+      "totalOrders": "Σύνολο Παραγγελιών",
+      "activeBalance": "Ενεργά Υπόλοιπα"
+    }
+  },
+  "import": {
+    "title": "Εισαγωγή",
+    "selectFile": "Επιλογή Αρχείου",
+    "preview": "Προεπισκόπηση",
+    "process": "Εισαγωγή",
+    "downloadTemplate": "Λήψη προτύπου",
+    "supportedFormats": "Υποστηριζόμενοι τύποι αρχείων: .csv, .xlsx",
+    "stats": {
+      "totalRecords": "Σύνολο εγγραφών",
+      "validRecords": "Έγκυρες εγγραφές",
+      "errors": "Σφάλματα"
+    }
+  }
+}
