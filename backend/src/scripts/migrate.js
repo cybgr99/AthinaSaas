@@ -28,7 +28,7 @@ const migrate = async () => {
         defaults: {
           username: 'admin',
           password: 'admin123',
-          email: 'admin@athina-crm.local',
+          email: 'admin@athina-saas.local',
           fullName: 'System Administrator',
           role: 'διαχειριστής'
         }

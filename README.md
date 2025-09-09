@@ -62,8 +62,8 @@ A modern, lightweight CRM system designed for small Greek businesses. Built with
 
 2. Clone and setup:
    ```bash
-   git clone https://github.com/your-username/athina-crm.git
-   cd athina-crm
+   git clone https://github.com/cybgr99/AthinaSaas.git
+   cd AthinaSaas
    npm run wsl:setup
    ```
 
@@ -125,8 +125,8 @@ A modern, lightweight CRM system designed for small Greek businesses. Built with
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/athina-crm.git
-   cd athina-crm
+   git clone https://github.com/cybgr99/AthinaSaas.git
+   cd AthinaSaas
    ```
 
 2. Initialize the project:

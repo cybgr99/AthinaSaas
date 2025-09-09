@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "athina-crm",
+  "name": "athina-saas",
   "version": "1.0.0",
   "private": true,
   "workspaces": [

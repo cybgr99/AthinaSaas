@@ -12,7 +12,7 @@ const createAdmin = async () => {
     const adminData = {
       username: process.env.ADMIN_USERNAME || 'admin',
       password: process.env.ADMIN_PASSWORD || 'admin123',
-      email: process.env.ADMIN_EMAIL || 'admin@athina-crm.local',
+      email: process.env.ADMIN_EMAIL || 'admin@athina-saas.local',
       fullName: 'System Administrator',
       role: 'διαχειριστής'
     };
